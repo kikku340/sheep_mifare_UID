@@ -29,6 +29,9 @@ def read_UID(libpass=defaulrDLLpass):
         UID_str += chr(data[i])
     return str(UID_str)
 
+def serch_UID(filename, uid):
+
+
 if __name__ == "__main__":
     UID = read_UID()
     print("UID:", UID)
